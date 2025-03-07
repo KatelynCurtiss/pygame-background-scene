@@ -43,8 +43,8 @@ while running:
     draw_tree(100, HEIGHT - 160)
     draw_tree(600, HEIGHT - 160)
 
-    draw_text("Katelyn Curtiss", 50, 20, 36, config.DARK_BLUE)
-    draw_text("Alba Public Scools", 50, 60, 36, config.DARK_BLUE)
+    draw_text("Katelyn Curtiss", 50, 20, 36, config.LIGHT_PURPLE)
+    draw_text("Alba Public Scools", 50, 60, 36, config.LIGHT_PURPLE)
 
     pygame.display.flip()
 
