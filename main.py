@@ -13,21 +13,33 @@ def draw_sky():
 
 def draw_stars(x, y):
     pygame.draw.circle(screen, config.YELLOW,(x + 15, y - 20),17, 0)
-    pygame.draw.circle(screen, config.YELLOW,(x + 9, y - 100),6, 0)
-    pygame.draw.circle(screen, config.YELLOW,(x + 300, y - 100),6, 0)
+    pygame.draw.circle(screen, config.LIGHT_BLUE,(x + 9, y - 100),6, 0)
+    pygame.draw.circle(screen, config.LIGHT_BLUE,(x + 300, y - 100),6, 0)
     pygame.draw.circle(screen, config.YELLOW,(x + 350, y - 150),4, 0)
-    pygame.draw.circle(screen, config.YELLOW,(x + 400, y - 12),16, 0)
-    pygame.draw.circle(screen, config.YELLOW,(x + 367, y - 150),4, 0)
-
+    pygame.draw.circle(screen, config.LIGHT_BLUE,(x + 400, y - 12),16, 0)
+    pygame.draw.circle(screen, config.LIGHT_BLUE,(x + 367, y - 150),4, 0)
+    pygame.draw.circle(screen, config.YELLOW,(x + 90, y - 90),13, 0)
+    pygame.draw.circle(screen, config.YELLOW,(x + 100, y - 100),3, 0)
+    pygame.draw.circle(screen, config.LIGHT_BLUE,(x + 345, y - 110),6, 0)
+    pygame.draw.circle(screen, config.YELLOW,(x + 78, y - 159),9, 0)
+    pygame.draw.circle(screen, config.YELLOW,(x + 423, y - 35),10, 0)
+    pygame.draw.circle(screen, config.LIGHT_BLUE,(x + 265, y - 89),5, 0)
+    pygame.draw.circle(screen, config.YELLOW,(x + 109, y - 450),3, 0)
+    pygame.draw.circle(screen, config.LIGHT_BLUE,(x + 125, y - 125),6, 0)
+    pygame.draw.circle(screen, config.YELLOW,(x + 500, y - 159),9, 0)
+    pygame.draw.circle(screen, config.YELLOW,(x + 23, y - 58),10, 0)
+    pygame.draw.circle(screen, config.YELLOW,(x + 260, y - 28),5, 0)
 
 
 
 def draw_grass(x, y):
     pygame.draw.rect(screen, config.BROWN, (0, HEIGHT - 100, WIDTH, 100))
 
+def draw_house(x,y):
+     pygame.draw.rect(screen, config.LIGHT_PINK, (0, HEIGHT - 20, WIDTH, 20))
 
 def draw_cloud(x, y):
-    pygame.draw.circle(screen, config.WHITE, (x, y), 40)
+    pygame.draw.circle(screen, config.LIGHT_BLUE, (x, y), 40)
     pygame.draw.circle(screen, config.WHITE, (x + 40, y - 20), 40)
     pygame.draw.circle(screen, config.WHITE, (x + 80, y), 40)
 
